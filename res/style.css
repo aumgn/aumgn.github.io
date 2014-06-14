@@ -1,0 +1,104 @@
+@import url(http://fonts.googleapis.com/css?family=Inconsolata);
+
+body {
+    padding-top: 70px;
+    padding-bottom: 30px;
+    background-color: #444;
+}
+
+.navbar-inner {
+    background: #212121;
+    background: -moz-linear-gradient(top,#373737,#212121);
+    background: -webkit-linear-gradient(top,#373737,#212121);
+    background: -ms-linear-gradient(top,#373737,#212121);
+    background: -o-linear-gradient(top,#373737,#212121);
+    background: linear-gradient(top,#373737,#212121);
+}
+.navbar .container { height: 50px }
+.navbar .container .nav .custom-icon .twitter-icon { background-position: 0 0 }
+.navbar .container .nav .custom-icon .github-icon { background-position: -24px 0 }
+.navbar .container .nav li i[class^="icon-"] {
+    padding-right: 4px;
+    margin-top: 3px;
+}
+.navbar .container .nav li.custom-icon > a { height: 24px }
+.navbar .container .nav ul.dropdown-menu { max-width: none }
+.navbar .container .nav .custom-icon i {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url(custom-icons.png);
+    background-repeat: no-repeat;
+}
+.navbar .container .nav .custom-icon a {
+    width: 24px;
+    margin-top: 8px;
+}
+.navbar .container .nav .custom-icon a:hover .twitter-icon { background-position: -48px 0 }
+.navbar .container .nav .custom-icon a:hover .github-icon { background-position: -72px 0 }
+.navbar .container .nav.pull-right { margin-right: -20px }
+.navbar .container .custom-brand {
+    margin-left: -20px;
+    float: left;
+}
+.navbar .container .custom-brand *.chevron {
+	font-size: 26px;
+	font-weight: 900
+}
+.navbar .container .custom-brand a:hover {
+    color: #aaa;
+    text-decoration: none;
+}
+.navbar .container .custom-brand > * {
+    font-family: Inconsolata;
+    height: 50px;
+    padding: 0;
+    padding-right: 6px;
+    line-height: 44px;
+    font-size: 32px;
+    color: #fff;
+}
+.navbar .container .nav li > a {
+    height: 50px;
+    line-height: 50px;
+    padding: 0 10px;
+    font-size: 15px;
+    font-family: "Source Sans Pro", "Ubuntu", "Monaco", "cantarel", "calibri", "serif";
+}
+.navbar .container .nav li > a .caret {
+	margin-top: 24px
+}
+a:hover { text-decoration: none }
+.dropdown-menu li > a:hover,
+.dropdown-menu .active > a:hover {
+    background-color: #444;
+    color: #fff;
+}
+
+#main .container {
+    position: relative;
+    margin-top: 14px;
+}
+#main .container .page {
+    width: 820px;
+    padding: 60px;
+    background-color: #fff;
+    box-shadow: 0 5px 20px black;
+    letter-spacing: .4px;
+}
+#main .container .page h3,
+#main .container .page p {
+    font-family: "Source Sans Pro", "Ubuntu", "Monaco", "cantarel", "calibri", "serif";
+    line-height: 24px;
+    letter-spacing: .4px;
+}
+#main .container .page h3 {
+    margin-top: 32px;
+    margin-bottom: 12px;
+    font-size: 24px;
+}
+#main .container .page p {
+    margin-top: 12px;
+    margin-bottom: 32px;
+    font-size: 18px;
+}
